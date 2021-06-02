@@ -76,3 +76,5 @@ async def on_message(message):
 
 
 token = os.environ.get('BOT_TOKEN')
+
+bot.run(str(token))
